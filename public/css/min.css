@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#app{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.sceneCode{
+    position: absolute;
+    width: 1rem;
+    display: flex;
+    height: 0.3rem;
+    z-index: 2;
+    top: 0.3rem;
+    right: 0.2rem;
+    font-size: 0.14rem;
+    color: #999999;
+}
+.sceneCode .sceneCodeOne{
+    margin-right: 0.15rem;
+}
+.bgBanner{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box ;
+    position: relative;
+}
+.bgBanner #swiperBgBanner{
+    width: 100%;
+    height: 100%;
+}
+.bgBanner #swiperBgBanner .imgOne{
+    width: 100%;
+    height: 100%;
+    background: url("../images/1.jpg") no-repeat center;
+    background-size: cover;
+}
+.bgBanner #swiperBgBanner .imgTwo{
+    width: 100%;
+    height: 100%;
+    background: url("../images/2.JPEG") no-repeat center;
+    background-size: cover;
+}
+.bgBanner #swiperBgBanner .imgThree{
+    width: 100%;
+    height: 100%;
+    background: url("../images/3.jpg") no-repeat center;
+    background-size: cover;
+}
+.bgBanner #swiperBgBanner .imgFour{
+    width: 100%;
+    height: 100%;
+    background: url("../images/4.jpg") no-repeat center;
+    background-size: cover;
+}
+.bgBanner #swiperBgBanner .imgFive{
+    width: 100%;
+    height: 100%;
+    background: url("../images/5.jpg") no-repeat center;
+    background-size: cover;
+}
+.bgBanner #swiperBgBanner .imgSix{
+    width: 100%;
+    height: 100%;
+    background: url("../images/6.jpg") no-repeat center;
+    background-size: cover;
+}
+.bgBanner #swiperBgBanner .imgSeven{
+    width: 100%;
+    height: 100%;
+    background: url("../images/7.jpg") no-repeat center;
+    background-size: cover;
+}
+.bgBanner #swiperBgBanner .imgEight{
+    width: 100%;
+    height: 100%;
+    background: url("../images/8.JPG") no-repeat center;
+    background-size: cover;
+}
+.bgBanner #swiperBgBanner .imgNight{
+     width: 100%;
+     height: 100%;
+     background: url("../images/9.JPEG") no-repeat center;
+     background-size: cover;
+ }
+.bgBanner #swiperBgBanner .img10{
+    width: 100%;
+    height: 100%;
+    background: url("../images/10.JPEG") no-repeat center;
+    background-size: cover;
+}
+.bgBanner #swiperBgBanner .img11{
+    width: 100%;
+    height: 100%;
+    background: url("../images/11.JPEG") no-repeat center;
+    background-size: cover;
+}
+.bgBanner #swiperBgBanner .img12{
+    width: 100%;
+    height: 100%;
+    background: url("../images/12.jpg") no-repeat center;
+    background-size: cover;
+}
+.loveText{
+    position: absolute;
+    width: 3.3rem;
+    height: 20%;
+    top: 0.5rem;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    font-size: 0.18rem;
+    padding: 0.3rem 0.1rem 0.15rem 0.3rem;
+    color: #999999;
+}
+.tiemDisatance{
+    position: absolute;
+    width: 3.3rem;
+    height: 25%;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    font-size: 0.18rem;
+    padding: 0.2rem 0.1rem 0.15rem 0.3rem;
+    color: white;
+}
+.tiemDisatance span{
+    font-size: 0.24rem;
+}
+.weTime{
+    margin-bottom: 0.2rem;
+}
