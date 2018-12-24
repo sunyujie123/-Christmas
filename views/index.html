@@ -75,8 +75,7 @@
             </div>
         </div>
     </div>
-    <div class="loveText" v-if="!animation">
-        {{loveLabel}}
+    <div class="loveText" v-if="!animation" v-html="loveLabel">
     </div>
     <div class="tiemDisatance" v-if="animation">
         <div class="weTime">

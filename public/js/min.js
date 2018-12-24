@@ -49,7 +49,7 @@ new Vue({
 				"\r" +
 				"我怀着满满的期待却掉进漫无天日的绝望,\r" +
 				"\r" +
-				"这就是你给我的感觉。";
+				"这就是你给我的感觉";
 			var len = label.length;
 			this.loveLabel += label[this.num];
 			this.num += 1;
