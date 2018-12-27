@@ -17,7 +17,7 @@ new Vue({
 		this.loveText();
 		this.timeDate();
 		this.setInterval = setInterval(this.loveText, 1000);
-		that.setIntervalTime = setInterval(this.timeDate, 1000);
+		that.setIntervalTime = setInterval(this.timeDate, 300);
 		that.loveSetIntervalTime = setInterval(this.loveTime, 1000);
 		var audio = document.getElementById('em2');
 		audio.pause();
