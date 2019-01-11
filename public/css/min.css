@@ -143,7 +143,7 @@ html,body{
     height: 0.9rem;
     margin: 0.6rem auto;
     position:relative;/*以此为基准画心*/
-     animation-name: dump;      /* 绑定 */
+    animation-name: dump;      /* 绑定 */
     animation-delay: 0ms; /*延迟几秒后开始*/
     animation-duration: 1s; /*完成的时间*/
     animation-timing-function: ease-in-out;/*完成的速度方式*/
