@@ -60,7 +60,7 @@ new Vue({
 		// 时间计算1
 		timeDate: function () {
 			var that = this;
-			var newTime = '2019/1/1 0:00:00';
+			var newTime = '2020/1/1 0:00:00';
 			var newTimeStr = parseInt(new Date(newTime).getTime() / 1000);
 			var nowTime = new Date().getTime();
 			var nowTimeStr = parseInt(nowTime / 1000);
