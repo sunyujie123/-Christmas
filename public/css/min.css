@@ -152,8 +152,8 @@ html,body{
 
 .content .left,.content .right{
     position:absolute;
-    width: 0.6rem;/*2倍的半径*/
-    height: 0.9rem;/*3倍的半径*/
+    width: 0.5rem;/*2倍的半径*/
+    height: 0.7rem;/*3倍的半径*/
     border-radius:200px 200px 0 0;/*心头的半径*/
     background: red;
     filter: drop-shadow(0 0 45px rgb(255,20,20));/* 滤镜 + 阴影 */
